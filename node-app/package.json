@@ -1,0 +1,12 @@
+{
+  "name": "cicd-ec2-multi-container-demo-node-app",
+  "version": "1.0.0",
+  "description": "Node app - one of two containers in the multi-container CI/CD demo",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
