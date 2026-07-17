@@ -61,7 +61,7 @@ app.get('/', (req, res) => {
           <p><strong>Visits this session:</strong> ${visitCount}</p>
         </div>
         <p class="meta">cicd-ec2-multi-container-demo / node-app</p>
-        <p><strong>- Muneeb Rather -</p>
+        <p><strong>~ Muneeb Rather ~</p>
       </main>
     </body>
     </html>
