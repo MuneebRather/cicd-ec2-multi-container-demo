@@ -63,7 +63,7 @@ def home():
           <p><strong>Visits this session:</strong> {visit_count}</p>
         </div>
         <p class="meta">cicd-ec2-multi-container-demo / python-app</p>
-        <p><strong>- Muneeb Rather</p>
+        <p><strong>- Muneeb Rather -</p>
       </main>
     </body>
     </html>
