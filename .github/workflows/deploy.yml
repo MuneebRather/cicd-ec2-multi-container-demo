@@ -59,7 +59,7 @@ jobs:
 
       - name: Deploy python files to EC2
         if: needs.changes.outputs.python == 'true'
-        uses: appleboy/ssh-action@1.2.0
+        uses: appleboy/ssh-action@v1
         with:
           host: ${{ secrets.EC2_HOST}}
           username: ${{ secrets.EC2_USER}}
@@ -72,7 +72,7 @@ jobs:
 
       - name: Deploy node files to EC2
         if: needs.changes.outputs.node == 'true'
-        uses: appleboy/ssh-action@1.2.0
+        uses: appleboy/ssh-action@v1
         with:
           host: ${{ secrets.EC2_HOST}}
           username: ${{ secrets.EC2_USER}}
